@@ -1,0 +1,21 @@
+.task-form input {
+  padding: 0.8rem;
+  border: 1px solid #000;
+  border-radius: 0.5rem;
+  margin-right: 0.5rem;
+  width: 300px;
+  font-size: 1.1rem;
+}
+.task-form button {
+  padding: 0.8rem;
+  border: 2px solid #fff;
+  border-radius: 0.5rem;
+  font-size: 1.1rem;
+  background: #000;
+  color: #fff;
+}
+
+.task-form button:hover {
+  background: hsl(224, 93%, 44%);
+  border: 2px soid #fff;
+}
