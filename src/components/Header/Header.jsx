@@ -2,7 +2,16 @@ import React from 'react';
 import './Header.css';
 
 const Header = () => {
-  return <h1 className="header">Task Manager</h1>;
+  const handlePageReload = () => {
+    window.location.reload();
+  };
+
+  return (
+    <div className="header">
+      <h1>Task Manager</h1>
+      <button onClick={handlePageReload}>Reload</button>
+    </div>
+  );
 };
 
 export default Header;
